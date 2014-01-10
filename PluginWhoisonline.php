@@ -5,10 +5,10 @@ require_once 'modules/clients/models/UserGateway.php';
 class PluginWhoisonline extends DashboardPlugin
 {
     /* plugin member vars used by ClientExec */
-    var $name = "Who's Online";
-    var $smallName = "Online";
+    var $name = /*T*/"Who's Online"/*/T*/;
+    var $smallName = /*T*/"Online"/*/T*/;
 
-    var $description = "This shows the users currently logged into your ClientExec.";
+    var $description = /*T*/"This shows the users currently logged into your ClientExec."/*/T*/;
     var $default = true; //to be included with fresh installs
     var $cache = true;
     var $sidebarPlugin = true;
