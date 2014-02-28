@@ -20,8 +20,7 @@ class PluginWhoisonline extends DashboardPlugin
 
     //override the getPanel of DashboardPlugin as we do not want or have an index.phtml to output
     //we can just return html directly
-    public function getPanel()
-    {
+    public function getPanel() {
         return '<div id="plugin-whoisonline"><img class="content-loading" src="../images/loader.gif" /></div>';
     }
 
