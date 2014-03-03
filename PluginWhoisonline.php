@@ -13,7 +13,7 @@ class PluginWhoisonline extends DashboardPlugin
     var $cache = true;
     var $sidebarPlugin = true;
     var $order = 2;
-    var $iconName  = "icon-eye-open"; // must be a bootstrap defined icon
+    var $iconName  = "icon-eye-open"; // This must be a bootstrap defined icon
 
     var $jsLibs  = array('plugins/dashboard/whoisonline/plugin.js');
     var $cssPages = array('plugins/dashboard/whoisonline/plugin.css,plugins/dashboard/whoisonline/assets/flags.css');
