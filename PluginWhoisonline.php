@@ -18,8 +18,8 @@ class PluginWhoisonline extends DashboardPlugin
     var $jsLibs  = array('plugins/dashboard/whoisonline/plugin.js');
     var $cssPages = array('plugins/dashboard/whoisonline/plugin.css,plugins/dashboard/whoisonline/assets/flags.css');
 
-    //override the getPanel of DashboardPlugin as we do not want or have an index.phtml to output
-    //we can just return html directly
+    // override the getPanel of DashboardPlugin as we do not want or have an index.phtml to output
+    // we can just return html directly
     public function getPanel() {
         return '<div id="plugin-whoisonline"><img class="content-loading" src="../images/loader.gif" /></div>';
     }
