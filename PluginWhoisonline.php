@@ -9,7 +9,7 @@ class PluginWhoisonline extends DashboardPlugin
     var $smallName = /*T*/"Online"/*/T*/;
 
     var $description = /*T*/"This shows the users currently logged into your ClientExec."/*/T*/;
-    var $default = true; //to be included with fresh installs
+    var $default = true; // plugin to be included with fresh installs
     var $cache = true;
     var $sidebarPlugin = true;
     var $order = 2;
